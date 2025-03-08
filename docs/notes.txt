@@ -1,0 +1,17 @@
+---------------- RAW ------------------
+Registros: 74111
+29 columnas
+Nulos:                       Count   Type      Missing    Observations/ideas
+  *  bathrooms               73911   float64   200        IMPORTANTE llenar con -1
+     first_review            58247   object    15864      Fecha (string) -> datetime
+     host_has_profile_pic    73923   object    188        Podemos no usarla? str -> bool
+     host_identity_verified  73923   object    188        str -> Bool
+  *  host_response_rate      55812   object    18299      "%" ->  transformar a 0-1
+     host_since              73923   object    188        Fecha (string) -> datetime
+     last_review             58284   object    15827      Fecha (string) -> datetime
+     neighbourhood           67239   object    6872       String
+     review_scores_rating    57389   float64   16722      IMPORTANTE
+     thumbnail_url           65895   object    8216       Podemos no usarla?
+     zipcode                 73145   object    966        Podemos no usarlo si tenemos lat y lon?
+  *  bedrooms                74020   float64   91         IMPORTANTE input -1
+  *  beds                    73980   float64   131        IMPORTANTE input -1
